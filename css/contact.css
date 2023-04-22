@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#background{
+    width: 100%; height: 100vh;
+    background-color: #07252db0;
+    display: flex;
+   overflow: hidden;
+}
+#contactus{
+    position: relative;
+    width: 40%;
+    height: 75vh;
+    background-color: aquamarine;
+    top: 10vh; left: 15vw;
+    box-shadow: 0px -5px aquamarine; 
+}
+#heading{
+    position: relative;
+    top: 15px; left: 170px;
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.right{
+    position: absolute;
+    /* text-align: center; */
+}
+#name,#emaild,#additional{
+    font-size: 15px;
+    width: 25vw; height: 4.5vh;
+    left: 100px; top: 100px;
+    outline: none;
+    border: none;
+}
+#emaild{
+    left: 100px; top: 180px;
+}
+#additional{
+    width: 25vw; height: 20vh;
+    left: 100px; top: 260px;
+}
+#submit{
+    width: 5vw; height: 3.5vh;
+    left: 270px; top: 450px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#details{
+    position: relative;
+    top: 22vh;
+    left: 30vw;
+    width: 40%;
+    height: 70vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+.left{
+    background-color: white;
+    width: 13vw; height: 25vh; 
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+#fax,#email{
+    position: relative;
+    bottom: 50px;
+}
+.img{
+    position: relative; top: 25px;
+    width: 50px; height: 50px;
+}
+.h1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 18px;
+}
+#b{
+    left: 310px;
+}
+#d{
+    left: 30px;
+}
