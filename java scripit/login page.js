@@ -24,7 +24,7 @@ function loginpage(){
        document.getElementById("result").innerHTML="Invalid Email id"
     }
     else{
-        form[0].action="./home_page.html"
+        form[0].action="./html/home_page.html"
         form[0].elements[2].type="submit"
     }
 }
